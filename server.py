@@ -17,7 +17,7 @@ cotacao_dolar = float(requisicao_dic["USDBRL"]["bid"])
 cotacao_euro = float(requisicao_dic["EURBRL"]["bid"])
 cotacao_btc = float(requisicao_dic["BTCBRL"]["bid"])
 
-msg = f"Cotação Atualizada. {datetime.now()}\nDólar: R${cotacao_dolar:,.2f}\nEuro: R${cotacao_euro:,.2f}\nBTC: R${cotacao_btc:,.2f}"
+msg = f"Cotação Atualizada. {datetime.now()}\nDólar: R${cotacao_dolar:,.2f}\nEuro: R${cotacao_euro:,.2f}\nBTC: R${cotacao_btc:,.2f}\n\nInvestir um valor de R$298,13"
 
 automacao = '5495104211:AAHJIrse-oxrpomZrVnJvySGaqfCqqx_0Ls'
 
